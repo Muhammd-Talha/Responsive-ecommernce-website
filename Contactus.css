@@ -1,0 +1,303 @@
+body{
+    animation: transitionIn 1s;
+}
+@keyframes transitionIn {
+    from{
+        opacity: 0.3;
+        transform: rotateY(-20deg);
+    }
+    to{
+        opacity: 0.8;
+        transform: rotateX(0);
+    }
+}
+
+.icons {
+    padding-left: 30px;
+}
+.icons li{
+    display: inline-block;
+    margin: 10px;
+}
+.icons a{
+    text-decoration: none;
+    color: black;
+}
+.ico-ns{
+    margin-right: 100px;
+}
+ .drop, .drop:hover {
+    padding-right: 30px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+hr{
+    margin-top: -20px;
+}
+/* ====================================================2 */
+
+
+.for-m input[type=text]{
+padding-left: 20px;
+    height: 45px;
+    width: 200px;
+    border: 1px solid rgb(224, 219, 219);
+}
+.for-m input[type=text]:focus{
+    outline: none;
+    border: 1px solid rgb(224, 219, 219);
+}
+.for-m input[type=submit]{
+    padding: 5px 25px;
+    border: none;
+    background-color: orange;
+}
+.clock {
+    font-size: 25px;
+}
+
+.refresh {
+    font-size: 10px;
+}
+
+.heart {
+    font-size: 25px;
+}
+
+.locked {
+    font-size: 25px;
+}
+
+.persons {
+    font-size: 20px;
+}
+
+.icons i {
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+/* ==================================================================3 */
+.bi-search{
+    font-size: 15px;
+    padding: 0px 7px;
+}
+.labl label{
+    margin-right: 20px;
+    font-size: 25px;
+}
+.labl p{
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.canvas ul{
+    
+}
+.canvas li{
+    list-style-type: none;
+    padding: 10px;
+}
+.canvas li:hover{
+    background-color: orange;
+}
+.canvas a{
+    text-decoration: none;
+}
+
+/* ===========================================================canvas  */
+ .search{
+    background-color: orange;
+}
+.foms input[type=text] {
+    outline: none;
+    border: 1px solid rgb(224, 219, 219);
+}
+
+.poiu{
+    height: 65px;
+}
+
+.about{
+    /* background-color: red; */
+    
+    width: 63%;
+    height: 50px;
+    margin-bottom: 15px;
+
+}
+.about li{
+    display: inline-block;
+    padding-right: 30px;  
+    padding-top: 12px;
+}
+.about a{
+    text-decoration: none;
+    color: black;
+}
+.bton{
+    padding: 8px 23px;
+    background-color: rgb(14, 11, 11);
+    color: white;
+    border: none;
+    margin-bottom: 16px;
+}
+
+.d-rop a{
+    padding: 15px;
+}
+.d-rop a:hover{
+    background-color: orange;
+    transition: 0.5s;
+}
+#dr-op:hover{
+    background-color: white;
+    color: orange;
+    text-decoration:underline;
+}
+/* ============================================================================4 */
+
+    .left{
+        background-color: pink;
+    }
+    .bi-telephone-fill{
+        font-size: 35px;
+        color: orange;
+        margin: 45%;
+
+    }
+
+    .right{
+        background-color: skyblue;
+    }
+    .bi-envelope-check-fill{
+        font-size: 35px;
+        color: orange;
+        margin: 45%;
+    }
+    .b-ottom{
+        background-color: rgb(29, 180, 240);
+
+    }
+    .bi-geo-alt-fill{
+        font-size: 35px;
+        color: orange;
+        padding-left: 20px;
+    }
+    iframe{
+        width: 550px;
+        height: 317px;
+    }
+
+    .aft-er h2::after{
+        content: " ";
+        background-color: orange;
+        display: block;
+        height: 5px;
+        width: 100px;
+        margin: 10px auto 5px;
+    }
+
+
+/* responsive design  */
+@media screen and (max-width:475px) {
+    .b-ottom iframe{
+        /* display: none; */
+        width: 250px;
+        height: 300px;
+    }
+     .d-flex{
+        /* margin-left: -40px; */
+    }
+    .no-ne{
+        /* margin-right: -5px; */
+    }
+    
+    
+}
+@media screen and (max-width:576px) {
+    .item{
+        text-align: center;
+    }
+
+
+
+    
+    
+}
+@media screen and (max-width:768px) {
+    .ico-ns{
+        display: none;
+    }
+    .d-flex {
+        margin-left: -70px;
+    }
+    
+}
+
+@media screen and (max-width:991px) {
+
+    .icons{
+        padding-left: 2px;
+    }
+    .ico-ns{
+        margin-right: 30px;
+    }
+    .ico-ns .drop{
+        margin-left: 0px;
+    }
+
+    .hid-e{
+        display: none;
+    }
+    .imge{
+        margin: 0px auto;
+    }
+    .poiu{
+        display: none;
+    }
+    .b-ottom .border{
+        text-align: center;
+    }
+    .b-ottom i{
+        margin-left: 100px;
+    }
+
+    /* .iframe{
+        width: 250px;
+    } */
+    /* .aft-er{
+        display: grid;
+    } */
+}
+/* @media screen and (max-width:1199px) {
+    
+} */
+
+@media screen and (max-width:1199px) {
+    .about{
+        font-size: 15px;
+    }
+    .bton{
+
+     display: none;   
+    }
+    iframe{
+        /* width: 500px; */
+        width: 450px;
+        height: 317px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+

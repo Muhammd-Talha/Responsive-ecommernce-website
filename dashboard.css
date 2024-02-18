@@ -1,0 +1,205 @@
+.icons {
+    padding-left: 30px;
+}
+.icons li{
+    display: inline-block;
+    margin: 10px;
+}
+.icons a{
+    text-decoration: none;
+    color: black;
+}
+.ico-ns{
+    margin-right: 100px;
+}
+ .drop, .drop:hover {
+    padding-right: 30px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+hr{
+    margin-top: -20px;
+}
+/* ====================================================2 */
+
+
+.for-m input[type=text]{
+padding-left: 20px;
+    height: 45px;
+    width: 200px;
+    border: 1px solid rgb(224, 219, 219);
+}
+.for-m input[type=text]:focus{
+    outline: none;
+    border: 1px solid rgb(224, 219, 219);
+}
+.for-m input[type=submit]{
+    padding: 5px 25px;
+    border: none;
+    background-color: orange;
+}
+.bi-arrow-clockwise {
+    font-size: 25px;
+}
+
+.refresh {
+    font-size: 10px;
+}
+
+.bi-suit-heart {
+    font-size: 25px;
+}
+
+.bi-house-lock {
+    font-size: 25px;
+}
+
+.bi-person-plus-fill {
+    font-size: 20px;
+}
+
+.icons i {
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+/* ==================================================================3 */
+.bi-search{
+    font-size: 15px;
+    padding: 0px 7px;
+}
+.labl label{
+    margin-right: 20px;
+    font-size: 25px;
+}
+.labl p{
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.canvas ul{
+    
+}
+.canvas li{
+    list-style-type: none;
+    padding: 10px;
+}
+.canvas li:hover{
+    background-color: orange;
+}
+.canvas a{
+    text-decoration: none;
+}
+
+/* ===========================================================canvas  */
+ .search{
+    background-color: orange;
+}
+.foms input[type=text] {
+    outline: none;
+    border: 1px solid rgb(224, 219, 219);
+}
+
+.poiu{
+    height: 65px;
+}
+
+.about{
+    /* background-color: red; */
+    
+    width: 63%;
+    height: 50px;
+    margin-bottom: 15px;
+
+}
+.about li{
+    display: inline-block;
+    padding-right: 30px;  
+    padding-top: 12px;
+}
+.about a{
+    text-decoration: none;
+    color: black;
+}
+.bton{
+    padding: 8px 23px;
+    background-color: rgb(14, 11, 11);
+    color: white;
+    border: none;
+    margin-bottom: 16px;
+}
+
+.d-rop a{
+    padding: 15px;
+}
+.d-rop a:hover{
+    background-color: orange;
+    transition: 0.5s;
+}
+#dr-op:hover{
+    background-color: white;
+    color: orange;
+    text-decoration:underline;
+}
+
+
+/* responsive design  */
+@media screen and (max-width:768px) {
+    .ico-ns{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:991px) {
+
+    .icons{
+        padding-left: 2px;
+    }
+    .ico-ns{
+        margin-right: 30px;
+    }
+    .ico-ns .drop{
+        margin-left: 0px;
+    }
+
+    .hid-e{
+        display: none;
+    }
+    .imge{
+        margin: 0px auto;
+    }
+    .poiu{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .about{
+        /* margin-bottom: 35px; */
+        font-size: 15px;
+    }
+    .bton{
+        /* margin-bottom: 20px; */
+     display: none;   
+    }
+    /* .imge{
+        margin: 0px auto;
+    } */
+    
+}
+
+.bord-er{
+    border-right: 1px solid gray;
+}
+.bord-er li{
+    list-style-type: none;
+}
+.bord-er a{
+    text-decoration: none;
+}
+.bord-er li{
+    padding: 15px;
+}

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- BOOTSTRAP CSS FILE -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- BOOTSTRAP CDN LINK -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="./dashboard.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="div bg-dark">
+        <img src="./Images/envato-market-light.png" width="150" height="16" class="m-3" alt="">
+        <button class="btn btn-success float-end m-1 me-4">Buy Now</button>
+    </div>
+    <!-- ====================================================1 -->
+    <div class="d-flex justify-content-between ">
+        <div class="icons">
+            <ul>
+                <li><a href="">Account</a></li>
+                <li><a href="">Track Order</a></li>
+                <li><a href="">Support</a></li>
+            </ul>
+        </div>
+        <div class=" ico-ns">
+            <div class="btn-group ">
+                <span href="" class="mt-2"><img src="./Images/country-logo-16x16.png" width="16" height="16"
+                        alt=""></span>
+                <a data-bs-toggle="dropdown" aria-expanded="false" class="drop">
+                    United State <i class="bi bi-arrow-down-short"></i>
+                </a>
+                <ul class="dropdown-menu ">
+                    <li><a class="dropdown-item fw-bold" href="#">United State</a></li>
+                    <li><a class="dropdown-item" href="#">Bangladesh</a></li>
+                    <li><a class="dropdown-item" href="#">India</a></li>
+                </ul>
+                <a data-bs-toggle="dropdown" aria-expanded="false" class="drop">
+                    USD <i class="bi bi-arrow-down-short"></i>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item fw-bold" href="#">USD</a></li>
+                    <li><a class="dropdown-item" href="#">BDT</a></li>
+                </ul>
+                <a data-bs-toggle="dropdown" aria-expanded="false" class="drop">
+                    Bangla <i class="bi bi-arrow-down-short"></i>
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item fw-bold" href="#">BANGLA</a></li>
+                    <li><a class="dropdown-item" href="#">ENGLISH</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- =========================================================2 -->
+    <div class="container p-0 for-m d-flex justify-content-between mt-4">
+        <a class="  text-warning fs-2  sticky-top d-lg-none d-sm-block d-sm-block " data-bs-toggle="offcanvas"
+            href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            <i class="bi bi-distribute-vertical me-2"></i>
+        </a>
+
+        <div class="offcanvas offcanvas-start " tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header ">
+                <!-- <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5> -->
+                <div class="">
+                    <i class="bi bi-arrow-clockwise  position-relative me-3">
+                        <span
+                            class="position-absolute  top-0 start-100   translate-middle badge rounded-pill bg-warning refresh">
+                            2
+                            <span class="visually-hidden">unread messages</span>
+                        </span>
+                    </i>
+                    <i class="bi bi-suit-heart  position-relative me-3">
+                        <span
+                            class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning refresh">
+                            1
+                            <span class="visually-hidden">unread messages</span>
+                        </span>
+                    </i>
+                </div>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body ">
+                <div class="input-group foms">
+
+                    <input type="text" class="w-75 ps-2 " placeholder="Search Product..."
+                        aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                    <span class="input-group-text search p-2 " id="inputGroup-sizing-sm"> <i class="bi bi-search"></i>
+                    </span>
+                </div>
+
+                <div class="d-flex m-4 labl">
+                    <label>Category</label>
+                    <p style="width: 0.4%; height: 20px;background-color: rgb(212, 196, 196);"></p>
+                    <p>Main Menu</p>
+                </div>
+                <div class="canvas p-0">
+                    <ul>
+                        <li><i class="bi bi-phone-vibrate-fill"></i>&nbsp;&nbsp; &nbsp;&nbsp; <a href="">Mobile
+                                and
+                                Laptop</a> <i class="bi bi-arrow-right-short"></i></li>
+                        <li><i class="bi bi-controller"></i> &nbsp;&nbsp; &nbsp; <a href="">Gaming
+                                Entertainment</a>
+                            <i class="bi bi-arrow-right-short"></i>
+                        </li>
+                        <li><i class="bi bi- bi-file-earmark-image"></i>&nbsp;&nbsp; &nbsp;&nbsp;<a href="">Image
+                                and
+                                Video</a><i class="bi bi-arrow-right-short"></i></li>
+                        <li><i class="bi bi-cup-straw"></i>&nbsp;&nbsp; &nbsp;&nbsp;<a href="">Food and
+                                Drinks</a><i class="bi bi-arrow-right-short"></i></li>
+                        <li><i class="bi bi-bucket-fill"></i>&nbsp;&nbsp; &nbsp;&nbsp; <a href="">Toilet and
+                                Sanitation</a><i class="bi bi-arrow-right-short"></i></li>
+                        <li><i class="bi bi-truck-front-fill"></i>&nbsp;&nbsp; &nbsp;&nbsp;<a href="">Vehicles</a><i
+                                class="bi bi-arrow-right-short"></i></li>
+                        <li><i class="bi bi bi-bicycle"></i>&nbsp;&nbsp; &nbsp;&nbsp;<a href="">Cycling</a><i
+                                class="bi bi-arrow-right-short"></i></li>
+                        <li class=""> <i class="bi bi-camera"></i>&nbsp;&nbsp; &nbsp;&nbsp; <a href="">Camera</a><i
+                                class="bi bi-arrow-right-short"></i></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="imge ">
+            <img src="./Images/logo.svg" alt="">
+        </div>
+        <div class="for-ms  d-xl-block d-lg-block d-md-none d-sm-none d-none">
+            <form action="" class="d-flex">
+                <input type="text" placeholder="Search Product..">
+                <li class="list-group-item pe-5 ">ALl Cetegories.. <i class="bi bi-arrow-down-short "></i></li>
+                <input type="submit" value="Search" title="Click on it">
+            </form>
+        </div>
+        <div>
+            <i class="bi bi-arrow-clockwise hid-e position-relative me-3">
+                <span
+                    class="position-absolute  top-0 start-100   translate-middle badge rounded-pill bg-warning refresh">
+                    2
+                    <span class="visually-hidden">unread messages</span>
+                </span>
+            </i>
+            <i class="bi bi-suit-heart hid-e  position-relative me-3">
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning refresh">
+                    1
+                    <span class="visually-hidden">unread messages</span>
+                </span>
+            </i>
+            <i class="bi bi-house-lock  hid-e  position-relative me-3 dropdown">
+
+                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning refresh"
+                    data-bs-toggle="dropdown">
+                    15
+                    <span class="visually-hidden">unread messages</span>
+                </span>
+            </i>
+            <i class="bi bi-person-plus-fill position-relative ">
+
+            </i>
+        </div>
+    </div>
+    <!-- =========================================================================================3 -->
+
+    <!-- ============================================ -->
+    <div class="bg-warning mt-4 poiu">
+        <div class="container p-0 d-flex justify-content-between align-items-center">
+            <div>
+
+                <div class="dropdown ">
+                    <button class="btn btn-light p-lg-3 mt-lg-2 mb-lg-3    p-md-3 mt-md-2 mb-md-3 " type="button"
+                        id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"> <i
+                            class="bi bi-distribute-vertical me-2"></i>
+                        All Categories <i class="bi bi-arrow-down-short ms-5"></i>
+
+                    </button>
+                    <ul class="dropdown-menu d-rop p-0 w-100" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item " href="#"><i class="bi bi-phone-vibrate-fill"></i>&nbsp; Mobile and
+                                Laptop <i class="bi bi-arrow-right-short float-end"></i></a></li>
+                        <li><a class="dropdown-item" href="#"><i class="bi bi-joystick"></i>&nbsp; Gaming Entertain <i
+                                    class="bi bi-arrow-right-short float-end"></i></a></li>
+                        <li><a class="dropdown-item" href="#"><i class="bi bi-images"></i>&nbsp; Image and Video <i
+                                    class="bi bi-arrow-right-short float-end"></i></a></li>
+                        <li><a class="dropdown-item" href="#"><i class="bi bi-bus-front"></i>&nbsp; Vehicles <i
+                                    class="bi bi-arrow-right-short float-end"></i></a></li>
+                        <li><a class="dropdown-item" href="#"><i class="bi bi-airplane-fill"></i>&nbsp; Aeroplanes <i
+                                    class="bi bi-arrow-right-short float-end"></i></a></li>
+                        <li><a class="dropdown-item" href="#"><i class="bi bi-android2"></i>&nbsp; Reboot <i
+                                    class="bi bi-arrow-right-short float-end"></i></a></li>
+                        <li><a class="dropdown-item" href="#"><i class="bi bi-cup-straw"></i>&nbsp; Food and dink <i
+                                    class="bi bi-arrow-right-short float-end "></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="about ">
+                <ul>
+                    <li class="dropdown"><a href="" data-bs-toggle="dropdown">Homepage <i
+                                class="bi bi-arrow-down-short"></i> </a>
+                        <ul class="dropdown-menu drop-down p-0" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" id="dr-op" href="#"> Home 1</a></li>
+                            <li><a class="dropdown-item" id="dr-op" href="#"> Home 2</a></li>
+                            <li><a class="dropdown-item" id="dr-op" href="#"> Home 3</a></li>
+                        </ul>
+                    </li>
+
+
+                    <!-- <li><a href="">Shop <i class="bi bi-arrow-down-short"></i> </a></li> -->
+                    <li class="dropdown "><a href="" data-bs-toggle="dropdown">Shop <i
+                                class="bi bi-arrow-down-short"></i> </a>
+                        <ul class="dropdown-menu drop-down p-0 " aria-labelledby="dropdownMenuButton1">
+                            <!-- <li><a class="dropdown-item" id="dr-op" href="#"> Home 1</a></li>
+                            <li><a class="dropdown-item" id="dr-op" href="#"> Home 2</a></li>
+                            <li><a class="dropdown-item" id="dr-op" href="#"> Home 3</a></li> -->
+                            <div class="d-flex">
+                                <div class="pt-4">
+                                    <ul>
+                                        <li><a href="" class="dropdown-item " id="dr-op"><b> Shop List</b> </a></li>
+                                        <li><a href="" class="dropdown-item " id="dr-op">Shop Sidebar</a></li>
+                                        <li><a href="" class="dropdown-item " id="dr-op">Shop Fullwidth</a></li>
+                                        <li><a href="" class="dropdown-item " id="dr-op">Shop Category Icon</a></li>
+                                        <li><a href="" class="dropdown-item " id="dr-op">Shop Category Icon</a></li>
+                                        <li><a href="" class="dropdown-item " id="dr-op">Shop List View</a></li>
+                                    </ul>
+                                </div>
+                                <div class="pt-4">
+                                    <ul>
+                                        <li><a href="" class="dropdown-item " id="dr-op"><b>Product Layout</b></a></li>
+                                        <li><a href="" class="dropdown-item " id="dr-op">Horizonral Thumbnail</a></li>
+                                        <li><a href="" class="dropdown-item " id="dr-op">Vertical Thumbnail</a></li>
+                                        <li><a href="" class="dropdown-item " id="dr-op">Gallery Thumbnail</a></li>
+                                        <li><a href="" class="dropdown-item " id="dr-op">Sticky Summary</a></li>
+                                    </ul>
+                                </div>
+                                <div class="pt-4">
+                                    <ul>
+                                        <li><a href="" class="dropdown-item " id="dr-op"><b>Popular Category</b></a>
+                                        </li>
+                                        <li><a href="" class="dropdown-item " id="dr-op">Phone & Tablet</a></li>
+                                        <li><a href="" class="dropdown-item " id="dr-op">Gaming & Sports</a></li>
+                                        <li><a href="" class="dropdown-item " id="dr-op">Home Appliance</a></li>
+                                        <li><a href="" class="dropdown-item " id="dr-op">Fashion Clothes</a></li>
+                                    </ul>
+                                </div>
+                                <div class="pt-4 pb-4 me-4">
+                                    <img src="./Images/apple.png" alt="">
+                                </div>
+                            </div>
+                        </ul>
+
+                    </li>
+                    <!-- <li><a href="" class="dropdown-item">Pages <i class="bi bi-arrow-down-short"></i> </a></li> -->
+                    <li class="dropdown"><a href="" data-bs-toggle="dropdown">Pages <i
+                                class="bi bi-arrow-down-short"></i> </a>
+                        <ul class="dropdown-menu drop-down p-0" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" id="dr-op" href="#"> Privacy Policy</a></li>
+                            <li><a class="dropdown-item" id="dr-op" href="#"> Terms and Conditions</a></li>
+                            <li><a class="dropdown-item" id="dr-op" href="#"> FAQ</a></li>
+                            <li><a class="dropdown-item" id="dr-op" href="#"> Shop Category Icon</a></li>
+                            <li><a class="dropdown-item" id="dr-op" href="#"> Shop List View</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="" class="">About</a></li>
+                    <li><a href="" class="">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <button class="bton ">Become a Seller <i class="bi bi-arrow-right "></i></button>
+            </div>
+        </div>
+    </div>
+    <!-- ==================================================================== -->
+    <div class="container mt-5">
+        <div class="row ">
+            <!-- <h3>Your Dashboard</h3> -->
+
+            <div class="col-lg-3 bord-er p-0">
+                <h3>Your Dashboard</h3>
+                <ul>
+                    <li><i class="fs-4 bi bi-calendar-minus-fill"></i>&nbsp;&nbsp;&nbsp; <a href=""
+                            class="fs-5 text-dark">Dashboard</a></li>
+                    <li><i class="fs-4 bi bi-file-person-fill"></i>&nbsp;&nbsp;&nbsp;<a href=""
+                            class="fs-5 text-dark">Personal Info</a></li>
+                    <li><i class="fs-4 bi bi-credit-card-2-back-fill"></i>&nbsp;&nbsp;&nbsp;<a href=""
+                            class="fs-5 text-dark">Payment Method</a></li>
+                    <li><i class="fs-4 bi bi-cart-fill"></i>&nbsp;&nbsp;&nbsp;<a href=""
+                            class="fs-5 text-dark">Order</a></li>
+                    <li><i class="fs-4 bi bi-heart-fill"></i>&nbsp;&nbsp;&nbsp;<a href=""
+                            class="fs-5 text-dark">Wishlist</a></li>
+                    <li><i class="fs-4 bi bi-house-add"></i>&nbsp;&nbsp;&nbsp;<a href=""
+                            class="fs-5 text-dark">Address</a></li>
+                    <li><i class="fs-4 bi bi-star-fill"></i>&nbsp;&nbsp;&nbsp;<a href=""
+                            class="fs-5 text-dark">Reviews</a></li>
+                    <li><i class="fs-4 bi bi-unlock-fill"></i>&nbsp;&nbsp;&nbsp;<a href="" class="fs-5 text-dark">Change
+                            Password</a></li>
+                    <li><i class="fs-4 bi bi-file-earmark-lock-fill"></i>&nbsp; &nbsp;&nbsp;<a href=""
+                            class="fs-5 text-dark">Logout</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-9">
+                <div class="form-check form-switch float-end">
+                    <label class="form-check-label fs-4" for="flexSwitchCheckChecked">Switch Dashboard</label>
+                    <input class="form-check-input fs-4  " type="checkbox" id="flexSwitchCheckChecked" checked>
+                </div>
+                <div class="mt-5">
+                    <p>Hello Shovo</p>
+                    <h4>Welcome to your Profile</h4>
+                </div>
+                <div class="row">
+
+                    <div class="col-lg-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, officia animi reprehenderit rerum optio veritatis. Natus doloribus deserunt odit obcaecati quod unde quibusdam amet non? Ipsa minima veritatis molestias sed!</div>
+                    <div class="col-lg-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, officia animi reprehenderit rerum optio veritatis. Natus doloribus deserunt odit obcaecati quod unde quibusdam amet non? Ipsa minima veritatis molestias sed!</div>
+                    <div class="col-lg-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, officia animi reprehenderit rerum optio veritatis. Natus doloribus deserunt odit obcaecati quod unde quibusdam amet non? Ipsa minima veritatis molestias sed!</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,605 @@
+body{
+ 
+    animation: transitionIn 1s;
+}
+@keyframes transitionIn {
+    from{
+        opacity: 0.3;
+        transform: rotateY(-20deg);
+    }
+    to{
+        opacity: 0.8;
+        transform: rotateX(0);
+    }
+}
+/* =================================== IMAGE HOVER ZOOM ANIMATION   */
+.common{
+    overflow: hidden;
+}
+.color img{
+    transition:  2s;
+}
+.col-or img{
+    transition:  2s;
+}
+.common:hover img{
+    transform: scale(1.3);
+}
+/* =================================== IMAGE HOVER ZOOM ANIMATION   */
+
+.icons {
+    padding-left: 30px;
+}
+.icons li{
+    display: inline-block;
+    margin: 10px;
+}
+.icons a{
+    text-decoration: none;
+    color: black;
+}
+.ico-ns{
+    margin-right: 100px;
+}
+ .drop, .drop:hover {
+    padding-right: 30px;
+    color: black;
+    margin-top: 10px;
+    margin-left: 4px;
+    text-decoration: none;
+    cursor: pointer;
+}
+hr{
+    margin-top: -20px;
+}
+/* ====================================================2 */
+
+
+.for-m input[type=text]{
+padding-left: 20px;
+    height: 45px;
+    width: 200px;
+    border: 1px solid rgb(224, 219, 219);
+}
+.for-m input[type=text]:focus{
+    outline: none;
+    border: 1px solid rgb(224, 219, 219);
+}
+.for-m input[type=submit]{
+    padding: 5px 25px;
+    border: none;
+    background-color: orange;
+}
+.bi-arrow-clockwise {
+    font-size: 25px;
+}
+
+.refresh {
+    font-size: 10px;
+}
+
+.bi-suit-heart {
+    font-size: 25px;
+}
+
+.bi-house-lock {
+    font-size: 25px;
+}
+
+.bi-person-plus-fill {
+    font-size: 20px;
+}
+
+.icons i {
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+/* ==================================================================3 */
+.bi-search{
+    font-size: 15px;
+    padding: 0px 7px;
+}
+.labl label{
+    margin-right: 20px;
+    font-size: 25px;
+}
+.labl p{
+    margin-right: 20px;
+    margin-top: 10px;
+}
+.canvas ul{
+    
+}
+.canvas li{
+    list-style-type: none;
+    padding: 10px;
+}
+.canvas li:hover{
+    background-color: orange;
+}
+.canvas a{
+    text-decoration: none;
+}
+
+/* ===========================================================canvas  */
+ .search{
+    background-color: orange;
+}
+.foms input[type=text] {
+    outline: none;
+    border: 1px solid rgb(224, 219, 219);
+}
+
+.poiu{
+    height: 65px;
+}
+
+.about{
+    /* background-color: red; */
+    
+    width: 63%;
+    height: 50px;
+    margin-bottom: 15px;
+
+}
+.about li{
+    display: inline-block;
+    padding-right: 30px;  
+    padding-top: 12px;
+}
+.about a{
+    text-decoration: none;
+    color: black;
+}
+.bton{
+    padding: 8px 23px;
+    background-color: rgb(14, 11, 11);
+    color: white;
+    border: none;
+    margin-bottom: 16px;
+}
+
+.d-rop a{
+    padding: 15px;
+}
+.d-rop a:hover{
+    background-color: orange;
+    transition: 0.5s;
+}
+#dr-op:hover{
+    background-color: white;
+    color: orange;
+    text-decoration:underline;
+}
+
+
+/* responsive design  */
+@media screen and (max-width:768px) {
+    .ico-ns{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:991px) {
+
+    .icons{
+        padding-left: 2px;
+    }
+    .ico-ns{
+        margin-right: 30px;
+    }
+    .ico-ns .drop{
+        margin-left: 0px;
+    }
+
+    .hid-e{
+        display: none;
+    }
+    .imge{
+        margin: 0px auto;
+    }
+    .poiu{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .about{
+        /* margin-bottom: 35px; */
+        font-size: 15px;
+    }
+    .bton{
+        /* margin-bottom: 20px; */
+     display: none;   
+    }
+    /* .imge{
+        margin: 0px auto;
+    } */
+    
+}
+
+
+
+
+.color{
+    background-color: skyblue;
+}
+
+
+.col-lg-4{
+    /* border: 2px solid black; */
+}
+.col-or{
+    background-color:rgb(243, 203, 129) ;
+}
+.content{
+    /* border: 1px solid black; */
+    background: rgba(255, 255, 255, .5);
+    position: absolute;
+    top: 75%;
+    left: 0%;
+}
+
+/* ==================================5 */
+
+.bi-cart3{
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 20px;
+    /* color: orange; */
+}
+.ions i{
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 20px;
+    /* color: orange; */
+}
+.bi-file-lock2{
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 20px;
+    /* color: orange; */
+}
+.bi-hand-thumbs-up-fill{
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 20px;
+    /* color: orange; */
+}
+.ico-n{
+    background-color: rgb(10, 9, 9);
+    margin-top: 40px;
+}
+.ico-n p{
+    font-size: 14px;
+    color: white;
+}
+.fonts{
+    padding-top: 20px;
+    color: white;
+}
+/* popular sale  */
+.i-mag img{
+    object-fit: contain;
+}
+.ro-w .r-ow {
+    margin-right: 5px;
+}
+
+.bg-light {
+    display: flex;
+}
+color
+/* ================================================6 */
+.boxx img{
+    border: 5px solid white;
+}
+.mrgn{
+    margin-right: 120px;
+}
+
+.conten-t {
+    /* background-color: rgba(0,0,0,0.8); */
+    position: absolute;
+    top: 0;
+    left: -100%;
+    /* left: 100%; */
+    /* right: 100%; */
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s;
+    padding-top: 100px;
+    
+}
+
+.boxx {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.boxx img{
+    object-fit: cover;
+}
+
+.boxx:hover {
+    cursor: pointer;
+}
+
+.boxx:hover .conten-t {
+    left: -10%;
+    
+    /* right: 0%; */
+}
+.bi-arrows-fullscreen{
+    background-color: rgb(39, 32, 32);
+    color: white;
+    padding: 5px 10px;
+    font-size: 20px;
+    
+}
+.bi-heart{
+    background-color: rgb(39, 32, 32);
+    color: white;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+.bi-browser-firefox{
+    background-color: rgb(39, 32, 32);
+    color: white;
+    padding: 5px 10px;
+    font-size: 20px;
+
+}
+.gray{
+    color: gray;
+}
+
+/* =======================================7 */
+.im-ges img {
+    padding: 40px 25px;
+}
+/* =======================================8 */
+
+.second-last{
+    background-color: skyblue;
+    margin-top: 140px;
+}
+.second-last img{
+    margin-top: -100px;
+    margin-left: -70px;
+}
+
+.c-ol input[type=text]{
+    width: 200px;
+}
+.second-last h5{
+    margin-left: 150px;
+}
+.c-ol{
+    width: 55%;
+}
+.input-group-text{
+    cursor: pointer;
+}
+/* =========================================================== 10 */
+
+.foot-er{
+    padding-top: 50px;
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+}
+.foot-er li{
+    list-style-type: none;
+    padding: 10px;
+}
+.im-ge li{
+    margin-left: -40px;
+}
+ .im-ge img{
+    padding-bottom: 50px;    
+}
+.foot-er li:hover{
+    text-decoration: underline;
+    opacity: 0.6;
+}
+.h-r{
+    border: 2px solid white;
+}
+.qwerty:focus{
+    box-shadow: none;
+}
+@media screen and (max-width:491px) {
+    .c-ol input[type=text]{
+        width: 130px;
+    }
+}
+
+
+@media screen and (max-width:575px) {
+
+    
+    .btn-dark{
+        visibility: hidden;
+    }
+
+    .container-fluid form {
+        width: 100%;
+        margin: 5px;
+    }
+
+
+    .row {
+        display: grid;
+    }
+
+
+    .bottm{
+        margin-bottom: 20px;
+    }
+    .cont-ent{
+        width: 100%;
+        margin-left: 3px;
+    }
+    .contact{
+        width: 100%;
+        /* margin-left: 10px; */
+    }
+    .image img {
+        height: 270px;
+        width: 270px;
+        margin-bottom: 20px;
+    }
+    .div2 h2{
+        font-size: 30px;
+    } 
+    .bi-node-plus-fill{
+        font-size: 25px;
+    }
+    .bi-arrow-clockwise{
+        font-size: 20px;
+    }
+    .bi-suit-heart{
+        font-size: 20px;
+    }
+    .bi-house-lock{
+        font-size: 20px;
+    }
+    .bi-person-plus-fill{
+        font-size: 15px;
+
+    }
+    
+    .second-last img{
+        
+        width: 350px;
+        height: 450px;
+    }
+.c-ol{
+    text-align: center;
+}
+
+
+}
+@media screen and (max-width:767px) {
+    .c-ol{
+        position: absolute;
+        margin-left: 10px;
+        width: 75%;
+    }
+    .c-ol h5{
+        margin-left: 30px;
+    }
+    .c-ol h1{
+        color: white;
+    }
+    .c-ol h5{
+        color: white;
+    }
+    .container-fluid form {
+        width: 100%;
+        margin: 5px;
+    }
+    .btn-dark{
+        visibility: hidden;
+    }
+
+
+    .right {
+        display: none;
+    }
+
+    .div2 form input {
+        display: none;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .boxx img {
+        height: 250px;
+        width: 250px;
+    }
+
+    .boxx {
+        height: 350px;
+    }
+
+    .hi-de {
+        display: none;
+    }
+    .bi-person-plus-fill{
+        color: orange;
+        font-size: 25px;
+    }
+    .mrgn{
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width:991px) {
+    .mrgn{
+        margin-right: 170px;
+    }
+
+    .container-fluid form {
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .div2 form input {
+        display: none;
+    }
+
+    .header li {
+        margin: 10px;
+    }
+
+    .header .f-button {
+        display: none;
+    }
+    .btn-dark{
+        
+    }
+    .c-ol{
+        position: absolute;
+        margin-left: 10px;
+        width: 75%;
+    }
+    .c-ol h5{
+        margin-left: 30px;
+    }
+    .c-ol h1{
+        color: white;
+    }
+    .c-ol h5{
+        color: white;
+    }
+    .bi-person-plus-fill{
+        color: orange;
+    }
+
+}
+
+@media screen and (max-width:1200px) {
+    .header .f-button {
+        display: none;
+    }
+    .bi-person-plus-fill{
+        /* color: orange; */
+        font-size: 25px;
+    }
+    .btn-dark{
+        margin-left: 3px;
+    }
+    
+}
+@media screen and (max-width:1400px) {
+    .btn-dark{
+        margin-right: 25px;
+    }
+    
+}
+
